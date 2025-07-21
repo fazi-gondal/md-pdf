@@ -30,7 +30,7 @@ function Header() {
 
   return (
     <header className="flex flex-wrap items-center justify-between gap-1 bg-secondary px-1 py-1 sm:px-4 print:hidden">
-      <h1 className="min-w-fit text-lg font-bold">markdown2pdf</h1>
+      <h3 className="min-w-fit text-lg font-bold">MD2PDF</h3>
       <div className="flex gap-1">
         <button
           className="flex items-center gap-2 rounded-sm border border-black px-3 py-1"
@@ -41,19 +41,19 @@ function Header() {
             alt="markdown"
             className="size-6"
           />
-          Download
+          Save
         </button>
         <button
           className="rounded-sm border border-black px-3 py-1"
           onClick={onChooseFile}
         >
-          📁 Choose
+          📁 Open
         </button>
         <button
           className="rounded-sm border border-black px-3 py-1"
           onClick={onConvert}
         >
-          🎉 Convert
+          🎉 PDF
         </button>
       </div>
 
