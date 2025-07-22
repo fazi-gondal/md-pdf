@@ -1,7 +1,7 @@
 import { markdown, markdownLanguage } from "@codemirror/lang-markdown";
 import { languages } from "@codemirror/language-data";
 import { EditorView } from "@codemirror/view";
-import { androidstudio } from "@uiw/codemirror-theme-androidstudio";
+import { vscodeDark } from '@uiw/codemirror-themes-all';
 import CodeMirror from "@uiw/react-codemirror";
 import { useContext } from "react";
 import Context from "../context/ContextProvider";
@@ -14,7 +14,7 @@ function MdEditorComponent() {
       <CodeMirror
         value={text}
         onChange={(value) => setText(value)}
-        theme={androidstudio}
+        theme={vscodeDark}
         minHeight="100%"
         height="100%"
         extensions={[

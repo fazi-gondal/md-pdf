@@ -24,7 +24,7 @@ function MdPreviewComponent({ previewRef }) {
     >
       <MarkdownPreview
         source={text}
-        className="preview overflow-auto p-4 print:p-0"
+        className="preview overflow-auto p-2 print:p-2"
         wrapperElement={{
           "data-color-mode": "light",
         }}

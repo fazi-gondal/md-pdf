@@ -1,16 +1,14 @@
-<h1 align="center"><a href="https://markdown2pdfconverter.netlify.app ">markdown2pdf</a></h1>
+<h1 align="center"><a href="https://markdownd2pdf.vercel.app/">Markdown2pdf</a></h1>
 
 > An Impressive Markdown to PDF Converter!
 ```diff
 - Online Option: Upload resume.md to an unknown server?
 + Try the Offline Web Application instead!
 ```
-![image](https://github.com/sahilatahar/markdown2pdf/assets/100127570/c0dd7e32-2a70-4b95-9f2c-b2f6cdfa2d98)
+![image](public/md2pdf.png)
 
 
-## 👨‍💻 Demo
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c0548fed-3737-43e4-bf18-2c6fab99c81a/deploy-status)]()  
-Try out the website : [markdown2pdf](https://markdown2pdfconverter.netlify.app)
+### Try out the website : [markdown2pdf](https://markdownd2pdf.vercel.app/)
 
 ## 👉 How to Use
 1. Click the button to select a `.md` file.
@@ -34,11 +32,11 @@ This project is built with the following technologies:
 1. Fork the repository on GitHub.
 2. Clone your forked copy of the project
    ```bash
-   git clone https://github.com/<your-github-username>/markdown2pdf.git
+   git clone https://github.com/<your-github-username>/md2pdf.git
    ```
 3. Change the working directory
    ```bash
-   cd markdown2pdf
+   cd md2pdf
    ```
 4. Install dependencies
    ```bash
@@ -50,7 +48,7 @@ This project is built with the following technologies:
    ```
       
 ## About Me
-- Github: [@sahilatahar](https://github.com/sahilatahar)
+- Github: [@fazi-gondal](https://github.com/fazi-gondal)
 - Project: markdown2pdf (Markdown to PDF Converter)
 
 ## LICENSE  
